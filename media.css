@@ -1,0 +1,552 @@
+@media screen and (max-width: 1320px) {
+    .header, .section-1, .section-2, .section-3, .section-4, .section-5, .footer {
+        min-width: 1320px;
+    }
+
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header, .section-1, .section-2, .section-3, .section-4, .section-5, .footer {
+        min-width: 1200px;
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header, .section-1, .section-2, .section-3, .section-4, .section-5, .footer {
+        min-width: 1024px;
+    }
+
+    .container {
+        max-width: 1024px;
+    }
+
+    .header__block {
+        margin-left: -507px;
+}
+
+.ice-cream__sort-item {
+    width: 300px;
+    
+}
+
+.section-3__colomns {
+    
+    width: 1000px;
+}
+
+.section-3__text-block, .section-3__text-cows {
+    width: 453px;
+}
+
+.about-metrics {
+    width: 330px;
+}
+
+.franchaise-card {
+    width: 318px;
+    margin-right: 18px;
+}
+
+/* @media screen and (max-width: 992px) {
+    .header, .section-1, .section-2, .section-3, .section-4, .section-5, .footer {
+        min-width: 992px;
+    }
+
+    .container {
+        max-width: 770px;
+    }
+}  */ 
+
+
+@media screen and (max-width: 992px) {
+    .header, .section-1, .section-2, .section-3, .section-4, .section-5, .footer {
+        min-width: 769px;
+    }
+
+    .header__block {
+        left: 0;
+        margin-left: 0;
+        padding: 24px 32px;
+    }
+    .container {
+        max-width: 750px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    
+
+    .header__burger {
+        display: block;
+        left: 200px;
+       
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-item {
+        margin-bottom: 40px;
+    }
+    
+    .nav-link {
+        font-size: 48px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .section-1__button {
+        width: 62px;
+        height: 24px;
+        font-size: 8px;
+        line-height: normal;
+        padding-top: 5px;
+    }
+
+    .section-1__link {
+        font-size: 8px;
+        line-height: normal;
+        margin-left: 26px;
+        margin-top: 4px;
+    }
+
+    .ice-cream-on-plate {
+        width: 152px;
+        height: 152px;
+        margin-bottom: 41px;
+    }
+
+    .section-1__text {
+        font-size: 12px;
+    }
+
+    .big-ice-cream {
+        width: 373px;
+    height: 417.917px;
+    top: -25px;
+    right: 11px;
+    }
+
+    .numbers {
+        font-size: 28px;
+    }
+
+    .caption {
+        font-size: 8px;
+    }
+
+    .section-2__ice-cream-catalog {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    
+    .sub-title-parameters {
+        font-size: 22px;
+    }
+
+    .section-2__title-block {
+        margin-bottom: 200px;
+    }
+
+    .sub-title-h2 {
+        font-size: 34px;
+    }
+
+    .ice-cream__sort-item {
+        width: 224px;
+        height: 450px;
+    }
+
+    .ice-cream__sort img {
+        width: 199.336px;
+        height: 196.845px;
+        bottom: 85%;
+    }
+
+    .background-big-circle {
+        width: 199.336px;
+        height: 196.845px;
+        bottom: 81%;
+    }
+    .ice-cream__sort {
+        margin-right: 12px;
+        height: 428px;
+    }
+    
+    .about-sorts {
+        width: 172px;
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 22px;
+        margin-top: 130px;
+        margin-bottom: 40px;
+    }
+
+    .coffee p {
+        margin-bottom: 36px;
+    }
+    
+    .cow {
+        width: 334.654px;
+        height: 330px;
+    }
+
+    .backside-of-image-cow {
+        width: 334.654px;
+        height: 330px;
+    }
+
+    .double-image-of-cow {
+        width: 335px;
+        height: 383px;
+
+}
+
+.section-3__text-block {
+    width: 334px;
+}
+
+.section-3__text-cows {
+    font-size: 12px;
+    width: 334px;
+}
+
+.section-3__colomns {
+    width: 704px;
+}
+
+.section-3__icon {
+    margin-bottom: 32px;
+}
+
+.metrics {
+    font-size: 48px;
+}
+
+.about-metrics {
+    width: 152px;
+    font-size: 14px;
+}
+
+.long-picture-ice-cream {
+    width: 704px;
+    height: 327px;
+    margin-right: -352px;
+}
+
+.slider {
+    width: 718px;
+}
+
+.comments-item {
+    width: 705px;
+}
+
+.comments-text {
+    font-size: 14px;
+}
+
+.franchaise-card {
+    width: 224px;
+    margin-right: 16px;
+}
+
+.cafe-name, .cafe-city, .cafe-address, .cafe-working-days, .cafe-working-hours, .cafe-phone, .cafe-email {
+    font-size: 14px;
+}
+
+.headlines {
+    width: 352px;
+}
+
+.little-headline {
+    font-size: 26px;
+}
+
+.big-headline {
+    font-size: 48px;
+}
+
+.text-contact, .phone-contact {
+    font-size: 14px;
+}
+}
+
+/* @media screen and (max-width: 340px) {
+    .header, .section-1, .section-2, .section-3, .section-4, .section-5, .footer {
+        min-width: 320px;
+    }
+
+    .container {
+        width: 340px;
+    }
+
+} */
+
+@media screen and (max-width: 640px) {
+    .header, .section-1, .section-2, .section-3, .section-4, .section-5, .footer {
+        min-width: 640px;
+    }
+
+    .container {
+        max-width: 640px;
+    }
+
+    .header__burger {
+        left: 135px;
+    }
+
+    .nav-link {
+        font-size: 35px;
+    }
+
+    .ice-cream__sort {
+        width: 184px;
+    }
+
+    .big-ice-cream {
+        width: 322px;
+        height: 364.917px;
+        top: 22px;
+        right: -18px;
+    }
+
+    .section-1__text {
+        width: 162px;
+}
+
+.long-picture-ice-cream {
+    width: 624px;
+    height: 290px;
+    margin-right: -313px;
+}
+
+.comments-block {
+    padding-top: 290px;
+}
+
+.comments-item {
+    width: 598px;
+}
+
+.slider {
+    width: 600px;
+}
+
+.comments {
+    margin-right: 7px;
+}
+
+.franchaise-card {
+   
+    width: 183px;
+    padding: 21px;
+    margin-right: 14px;
+}
+
+.section-3__colomns {
+    width: 565px;
+}
+
+.section-3__text-block {
+    width: 202px;
+}
+
+.cow {
+    width: 313.654px;
+    height: 312px;
+}
+
+.backside-of-image-cow {
+    width: 313.654px;
+    height: 312px;
+}
+
+.section-3__text-cows {
+    font-size: 12px;
+    width: 228px;
+}
+
+.text-contact, .phone-contact {
+    font-size: 10px;
+}
+}
+
+@media screen and (max-width: 320px) {
+    .header, .section-1, .section-2, .section-3, .section-4, .section-5, .footer {
+        min-width: 320px;
+    }
+
+    .container {
+        max-width: 320px;
+    } 
+
+    .section-1__module {
+        background-image: url(/images/background-mobile.png);
+    }
+
+    #buttonBuyNow {
+        display: none;
+    }
+
+    .header__burger {
+        left: 0;
+    }
+
+    .ice-cream-on-plate {
+        display: none;
+    }
+
+    .section-1__text {
+        display: none;
+    }
+
+    .arrow-white {
+        display: none;
+    }
+
+    .big-ice-cream {
+        width: 245.001px;
+    height: 279.454px;
+    top: 190px;
+    right: 67px;
+    }
+
+    .big-numbers-block {
+        display: none;
+    }
+
+    h1 {
+        font-size: 26px;
+        width: 250px;
+    }
+
+    .section-1__button {
+margin-bottom: 239px;
+    }
+
+    .section-2__ice-cream-catalog {
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+
+    .ice-cream__sort {
+        width: 350px;
+height: 420px;
+margin-bottom: 208px;
+    }
+
+    .ice-cream__sort-item {
+        width: 350px;
+    }
+
+    .section-3__colomns {
+        flex-direction: column;
+    }
+
+    .section-3__text-cows {
+        width: 327px;
+}
+
+.section-3__three-colomns {
+    flex-direction: column;
+}
+.about-metrics {
+    width: 230px;
+}
+
+.long-picture-ice-cream {
+    width: 280px;
+height: 130.031px;
+top: -7%;
+margin-right: -140px;
+}
+
+.comments {
+    margin-right: 4px
+}
+
+.comments-item {
+    width: 285px;
+}
+
+.slider {
+    width: 284px;
+    height: 407px;
+}
+
+.comments-text {
+    font-size: 12px;
+    padding: 30px 25px;
+}
+
+.name-of-users {
+    font-size: 20px;
+}
+
+.pagination-dots {
+    padding-bottom: 380px;
+}
+
+.franchaise-card {
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+.franchaise {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: -287px;
+    right: 50%;
+    margin-right: -150px;
+}
+
+.franchaise-buttons {
+    padding-top: 1078px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttonLocation {
+    margin-bottom: 16px;
+}
+
+.section-5__contacts {
+    flex-direction: column;
+}
+
+.little-headline {
+    font-size: 18px;
+}
+
+.big-headline {
+    font-size: 34px;
+}
+
+.headlines {
+    width: 295px;
+    margin-bottom: 42px;
+}
+
+.contacts {
+    align-self: flex-end;
+}
+}
+
+
+
+

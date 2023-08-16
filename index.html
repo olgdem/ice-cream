@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/icon" href="/images/favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@700&family=Seymour+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/media.css">
+
+    <title>Ice-cream</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__block container">
+            <div class="header_section">
+                <img src="/images/Logo.png" alt="logo" class="logo">
+                
+                <nav class="nav-menu">
+                    <ul class="nav-list burger-menu">
+                        <li class="nav-item"><a href="#" class="nav-link colored-link">Home</a></li>
+                        <li class="nav-item"><a href="#how-made" class="nav-link">How it's made?</a></li>
+                        <li class="nav-item"><a href="#products" class="nav-link">Our products</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>    
+                <div class="header__burger">
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                </div>
+                <nav class="burger-menu-mobile">
+                    <img src="/images/Logo.png" alt="logo" class="logo burger-logo">
+                    <ul class="burger-list">
+                        <li class="nav-item"><a href="#" class="nav-link colored-link">Home</a></li>
+                        <li class="nav-item"><a href="#how-made" class="nav-link">How it's made?</a></li>
+                        <li class="nav-item"><a href="#products" class="nav-link">Our products</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contact</a></li>
+                    </ul>
+                    <span class="burger-close"></span>
+                </nav>    
+                <button class="button button-after button-yellow" id="buttonBuyNow">Buy now</button>
+            </div>
+        </div>
+        
+    </header>
+    
+    <section class="section-1">
+        <div class="section-1__module container">
+            <div class="section-1__blocks two-colomns">
+                <div class="section-1__block-1">
+                    <h1>ice cream made with passion</h1>
+                    <div class="two-colomns">
+                        <a href="#products" class="section-1__button button button-transparent">Products</a>
+                        <a href="#how-made" class="section-1__link">How it's made?</a>
+                    </div>
+                    <div class="two-colomns">
+                        <img src="/images/section-1_ice-cream-on-plate.png" alt="colored ice-cream on the white plane" class="ice-cream-on-plate">
+                        <div class="section-1__text-and-arrow">
+                            <p class="section-1__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                            <span class="arrow-white"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="section-1__block-2 two-colomns" >
+                    <img src="/images/big-ice-cream.png" alt="big ice-cream" class="big-ice-cream">
+                    <div class="section-1__big-numbers">
+                        <div class="big-numbers-block">
+                            <span class="numbers">16</span>
+                            <p class="caption">cafes</p>
+                        </div>
+                        <div class="big-numbers-block">
+                            <span class="numbers">23</span>
+                            <p class="caption">food trucks</p>  
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section-2" id="products">
+        <div class="container">
+            <div class="section-2__title-block sub-titles">
+                <p class="section-2__sub-title sub-title-parameters">100% natural</p>
+                <h2 class="sub-title-h2 sub-title-black">products</h2>
+            </div>
+            <div class="section-2__ice-cream-catalog">
+                <div class="ice-cream__sort" id="ice-cream_sort-1">
+                    <img src="/images/section-2__ice-cream-1.png" alt="just typical ice-cream" class="ice-cream-1 big-circle">
+                    <div class="background-big-circle circle-typical big-circle"></div>
+                    <div class="ice-cream__sort-item typical">
+                        <h3>ice cream</h3>
+                        <p class="about-sorts">Soft ice cream with a delicaice-cream-1te taste. Made with milk, cream, sugar and natural stabilizer</p>
+                        <span class="arrow-black"></span>
+                    </div>
+                </div>
+
+                <div class="ice-cream__sort" id="ice-cream_sort-2">
+                    <img src="/images/section-2__ice-cream-2.png" alt="ice-cream with coffee" class="ice-cream-2 big-circle">
+                    <div class="background-big-circle circle-coffee big-circle"></div>
+                    <div class="ice-cream__sort-item coffee">
+                        <h3>ice coffee</h3>
+                        <p class="about-sorts">Fragrant invigorating drink created from 100% natural ingredients without the use of preservatives and flavor enhancers</p>
+                        <span class="arrow-black"></span>
+                    </div>
+                </div>
+
+                <div class="ice-cream__sort" id="ice-cream_sort-3">
+                    <img src="/images/section-2__ice-cream-3.png" alt="milkshake" class="ice-cream-3 big-circle">
+                    <div class="background-big-circle circle-milkshake big-circle"></div>
+                    <div class="ice-cream__sort-item milkshake">
+                        <h3>milkshakes</h3>
+                        <p class="about-sorts">Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries and other sweets of your choice</p>
+                        <span class="arrow-black"></span>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+    <section class="section-3" id="how-made">
+        <div class="container">
+            <div class="section-3__title-block sub-titles">
+                <p class="section-3__sub-title sub-title-parameters">tradition and love</p>
+                <h2 class="sub-title-h2 sub-title-white">how it's made?</h2>
+            </div>
+            <div class="section-3__colomns two-colomns">
+                <div class="double-image-of-cow">
+                    <img src="/images/cows.png" alt="cows on the green field" class="cow">
+                    <div class="backside-of-image-cow"></div>
+                </div>
+                <div class="section-3__text-block">
+                    <p class="section-3__text-cows">Ice is a place where you will become not only a little happier, but also healthier. Health is the main value for us, and we follow it when creating our handmade desserts.<br>
+                        We use traditional recipes and 100% natural ingredients. Our products are so natural that they can be given to children from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of coffee and 23 milkshakes.<br>
+                        This is enough to choose ice cream and coffee for any mood!
+                    </p>
+                    <button class="section-3__button button button-after button-yellow" id="buttonReadMore">Read more</button>
+                </div>
+            </div>
+            <div class="section-3__three-colomns">
+                <div class="statistics">
+                    <span class="section-3__icon cow-icon"></span>
+                    <span class="metrics">721</span>
+                    <p class="about-metrics">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                </div>
+                <div class="statistics">
+                    <span class="section-3__icon weight-icon"></span>
+                    <span class="metrics">16kg</span>
+                    <p class="about-metrics">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                </div>
+                <div class="statistics">
+                    <span class="section-3__icon ice-cream-icon"></span>
+                    <span class="metrics">84</span>
+                    <p class="about-metrics">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-4">
+        <div class="container">
+            <img class="long-picture-ice-cream" src="/images/long-img__ice-cream.png" alt="a lot of ice-cream">
+            <div class="comments-block">
+                <div class="slider">
+                    <div class="comments-slider-line">
+                        <div class="comments" data-index="0">
+                            <img class="avatar" src="/images/avatar-1__comments.png" alt="photo of users">
+                            <div class="comments-item">
+                                <p class="comments-text">I love visiting your cafe. You prepare the most delicious ice cream in Los Angeles! In addition, you have beautiful serving, cozy atmosphere and polite staff.
+                                </p>
+                            </div>
+                            <p class="name-of-users">Emily, Los Angeles</p>
+                        </div>
+                        <div class="comments" data-index="1">
+                            <img class="avatar" src="/images/avatar-2__comments.png" alt="photo of users">
+                            <div class="comments-item">
+                                <p class="comments-text">Every day we come to you with friends after classes in college. 
+                                    We love your ice cream and casual atmosphere!
+                                </p>
+                            </div>
+                            <p class="name-of-users">Bryan, New-York</p>
+                        </div>
+                        <div class="comments" data-index="2">
+                            <img class="avatar" src="/images/avatar-3__comments.png" alt="photo of users">
+                            <div class="comments-item">
+                                <p class="comments-text">Ice cream is my passion! I love your chocolate hazelnut ice cream! 
+                                    And I really like the excellent service - always served politely and quickly!
+                                </p>
+                            </div>
+                            <p class="name-of-users">Diana, Chicago</p>
+                        </div>
+                        <div class="comments" data-index="3">
+                            <img class="avatar" src="/images/avatar-4__comments.png" alt="photo of users">
+                            <div class="comments-item">
+                                <p class="comments-text">I love eating popsicles on a hot day. Yours is always delicious. 
+                                    I recommend your cafe to everyone I know.
+                                </p>
+                            </div>
+                            <p class="name-of-users">Sam, Los Angeles</p>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="pagination-dots">
+                    <span class="dots dots-active" data-index="0"></span>
+                    <span class="dots" data-index="1"></span>
+                    <span class="dots" data-index="2"></span>
+                    <span class="dots" data-index="3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-5">
+        <div class="section-5__block container">
+            <div class="franchaise">
+                <div class="franchaise-card">
+                    <span class="cafe-name">cafe</span>
+                    <p class="cafe-city">Chicago</p>
+                    <p class="cafe-address">10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</p>
+                    <hr>
+                    <p class="cafe-working-days">Monday - Friday</p>
+                    <p class="cafe-working-hours">06:00 AM - 10:00 PM</p>
+                    <p class="cafe-working-days">Saturday - Sunday</p>
+                    <p class="cafe-working-hours">08:00 AM - 16:00 PM</p>
+                    <hr>
+                    <p class="cafe-phone">+61(0) 383 766 284</p>
+                    <p class="cafe-email">noreply@envato.com</p>
+                </div>
+                <div class="franchaise-card">
+                    <span class="cafe-name">food truck</span>
+                    <p class="cafe-city">Los Angeles</p>
+                    <p class="cafe-address">1003 Manhattan Ave, Manhattan Beach, CA 90263, USA</p>
+                    <hr>
+                    <p class="cafe-working-days">Monday - Friday</p>
+                    <p class="cafe-working-hours">06:00 AM - 10:00 PM</p>
+                    <p class="cafe-working-days">Saturday - Sunday</p>
+                    <p class="cafe-working-hours">08:00 AM - 16:00 PM</p>
+                    <hr>
+                    <p class="cafe-phone">+61(0) 383 766 284</p>
+                    <p class="cafe-email">noreply@envato.com</p>
+                </div>
+                <div class="franchaise-card">
+                    <span class="cafe-name">cafe</span>
+                    <p class="cafe-city">New York</p>
+                    <p class="cafe-address">726 Sterling Pl, Brooklyn, NY 11222, USA</p>
+                    <hr>
+                    <p class="cafe-working-days">Monday - Friday</p>
+                    <p class="cafe-working-hours">06:00 AM - 10:00 PM</p>
+                    <p class="cafe-working-days">Saturday - Sunday</p>
+                    <p class="cafe-working-hours">08:00 AM - 16:00 PM</p>
+                    <hr>
+                    <p class="cafe-phone">+61(0) 383 766 284</p>
+                    <p class="cafe-email">noreply@envato.com</p>
+                </div>
+            </div>
+            <div class="franchaise-buttons">
+                <button class="button button-yellow button-after button_section-5" id="buttonLocation">Our Locations</button>
+                <button class="button button-transparent button-after button_section-5" id="buttonFranchaise">Franchise</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="section-5__contacts two-colomns">
+                <div class="headlines">
+                    <p class="little-headline">homemade ice cream made </p>
+                    <p class="big-headline">with passion</p>
+                </div>
+                <div class="contacts">
+                    <div class="section-5__icon-list">
+                        <span class="section-5__icons github"></span>
+                        <span class="section-5__icons telegram"></span>
+                        <span class="section-5__icons facebook"></span>
+                    </div>
+                    <p class="text-contact">Feel free to contact<span class="phone-contact">  +61 (0) 383 766 284</span></p>
+                </div>
+            </div>
+            <hr>
+            <p class="footer-text">&#169; 2022 - IceCream. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- _________________Modal Buy Now______________- -->
+    <div class="modal" id="myModalBuy">
+        <div class="modal_body">
+            <div class="modal_content">
+                <h4 class="modal-caption">Buy now</h4>
+                <span class="modal-close" id="closeModalBuy"></span>
+                <div class="modal-buy_ice-cream-cards">
+                    <div class="modal-ice-cream__sort small-sort">
+                        <img src="/images/modal_ice-cream.png" alt="typical ice-cream" class="modal-ice-cream"> 
+                    <div class="modal-ice-cream__sort-item small-sort typical-small ">
+                            <h3 class="modal-buy-h3">ice cream</h3> 
+                        </div>
+                    </div>
+                    <div class="modal-ice-cream__sort small-sort">
+                        <img src="/images/modal_coffee.png" alt="ice-cream coffee" class="modal-coffee">
+                    <div class="modal-ice-cream__sort-item small-sort coffee">
+                            <h3 class="modal-buy-h3">ice coffee</h3> 
+                        </div>
+                    </div>
+                    <div class="modal-ice-cream__sort small-sort">
+                        <img src="/images/modal_milkshake.png" alt="ice-cream milkshake" class="modal-milkshake">
+                        <div class="modal-ice-cream__sort-item small-sort milkshake-small">
+                            <h3 class="modal-buy-h3">milkshakes</h3> 
+                        </div>
+                    </div>
+                </div>
+                <form class="modal_form">
+                    <input type="text" name="username" placeholder="Name" class="modal_input-name">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone" class="modal_input-phone">
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment" class="modal_input-comments"></textarea>
+                    <button type="submit" class="modal_button-submit button button-yellow">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <!-- MODAL OUR LOCATION -->
+    <div class="modal" id="myModalLocation">
+        <div class="modal_body">
+            <div class="modal_content location_content-box">
+                <h4 class="modal-caption">Our Locations</h4>
+                <span class="modal-close" id="closeModalLocation"></span>
+                <iframe class="modal-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1447.0110419417874!2d-87.78118952933167!3d41.70274963642098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e39ad302b2c19%3A0xc808e9b14d04eb2b!2s10340%20Ridgeland%20Ave%2C%20Chicago%20Ridge%2C%20IL%2060415%2C%20%D0%A1%D0%A8%D0%90!5e0!3m2!1sru!2sua!4v1691498171289!5m2!1sru!2sua" width="448" height="260" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <a href="https://goo.gl/maps/AWMAn6V4thRwaQwJ9" target="_blank" class="modal-button-map button button-yellow">Open map</a>
+            </div>
+        </div>
+    </div>
+    <!--        MODAL FRANCHAISE  -->
+    <div class="modal" id="myModalFranchaise">
+        <div class="modal_body">
+            <div class="modal_content franchaise_content-box">
+                <h4 class="modal-caption">Thank you for your interest in owning an Ice Cream shop</h4>
+                <span class="modal-close" id="closeModalFranchaise"></span>
+                <p class="modal-franchaise-text">Due to the overwhelming volume of franchise requests we are not accepting new franchisee applications at this time. Once the application process resumes, we will contact you for further information. Please fill out the contact information below and we will reach out for additional information. We appreciate your patience.</p>
+                <form class="modal_form">
+                    <input type="text" name="username" placeholder="Name" class="modal_input-name">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone" class="modal_input-phone">
+                    <input type="email" id="email" name="email" placeholder="Email" class="modal_input-email">
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment" class="modal_input-comments"></textarea>
+                    <button type="submit" class="modal_button-submit button button-yellow">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--       MODAL ICE-CREAM INGREDIENTS -->
+    <div class="modal" id="myModalIngredients1">
+        <div class="modal_body">
+            <div class="modal_content ingredients_content-box">
+                <h4 class="modal-caption">Chololate icecream</h4>
+                <span class="modal-close" id="closeModalFranchaise1"></span>
+                <div class="modal-ingredients_image">
+                    <img src="/images/chockolate-ice-cream.png" alt="ice-cream">
+                </div>
+                <div class="modal_ice-cream_components">
+                    <div class="component-item">
+                        <div class="modal-circle">
+                            <p class="component-number">320</p>
+                        </div>
+                        <p class="component-name">kcal</p>
+                    </div>
+                    <div class="component-item">
+                        <div class="modal-circle">
+                            <p class="component-number">4g</p>
+                        </div>
+                        <p class="component-name">Protein</p>
+                    </div>
+                    <div class="component-item">
+                        <div class="modal-circle">
+                            <p class="component-number">8,2g</p>
+                        </div>
+                        <p class="component-name">Fats</p>
+                    </div>
+                    <div class="component-item">
+                        <div class="modal-circle">
+                            <p class="component-number">40,4g</p>
+                        </div>
+                        <p class="component-name">Carbs</p>
+                    </div>
+                </div>
+                <div class="ingredients">
+                    <p>Ingredients</p>
+                    <div class="ingradients-table">
+                        <ul class="ingredients-name_list">
+                            <li>Milk</li>
+                            <li>Belgian chocolate</li>
+                            <li>Cream</li>
+                            <li>Cocoa powder</li>
+                            <li>Sugar</li>
+                            <li>Vanilla sugar</li>
+                        </ul>
+                        <ul class="ingredients-weight_list">
+                            <li>100ml</li>
+                            <li>20g</li>
+                            <li>150 ml</li>
+                            <li>30g</li>
+                            <li>40g</li>
+                            <li>10g</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <form class="modal_form">
+                    <input type="text" name="username" placeholder="Name" class="modal_input-name">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone" class="modal_input-phone">
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment" class="modal_input-comments"></textarea>
+                    <button type="submit" class="modal_button-submit button button-yellow">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myModalIngredients2">
+        <div class="modal_body">
+            <div class="modal_content ingredients_content-box">
+                <h4 class="modal-caption">Ice coffee</h4>
+                <span class="modal-close" id="closeModalFranchaise2"></span>
+                <div class="modal-ingredients_image">
+                    <img src="/images/ice-coffee-modal.png" alt="ice-cream">
+                </div>
+                <div class="modal_ice-cream_components">
+                    <div class="component-item">
+                        <div class="modal-circle">
+                            <p class="component-number">320</p>
+                        </div>
+                        <p class="component-name">kcal</p>
+                    </div>
+                    <div class="component-item">
+                        <div class="modal-circle">
+                            <p class="component-number">4g</p>
+                        </div>
+                        <p class="component-name">Protein</p>
+                    </div>
+                    <div class="component-item">
+                        <div class="modal-circle">
+                            <p class="component-number">8,2g</p>
+                        </div>
+                        <p class="component-name">Fats</p>
+                    </div>
+                    <div class="component-item">
+                        <div class="modal-circle">
+                            <p class="component-number">40,4g</p>
+                        </div>
+                        <p class="component-name">Carbs</p>
+                    </div>
+                </div>
+                <div class="ingredients">
+                    <p>Ingredients</p>
+                    <div class="ingradients-table">
+                        <ul class="ingredients-name_list">
+                            <li>Milk</li>
+                            <li>Belgian chocolate</li>
+                            <li>Cream</li>
+                            <li>Cocoa powder</li>
+                            <li>Sugar</li>
+                            <li>Vanilla sugar</li>
+                        </ul>
+                        <ul class="ingredients-weight_list">
+                            <li>100ml</li>
+                            <li>20g</li>
+                            <li>150 ml</li>
+                            <li>30g</li>
+                            <li>40g</li>
+                            <li>10g</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <form class="modal_form">
+                    <input type="text" name="username" placeholder="Name" class="modal_input-name">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone" class="modal_input-phone">
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment" class="modal_input-comments"></textarea>
+                    <button type="submit" class="modal_button-submit button button-yellow">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myModalIngredients3">
+        <div class="modal_body">
+            <div class="modal_content ingredients_content-box">
+                <h4 class="modal-caption">Milkshakes</h4>
+                <span class="modal-close" id="closeModalFranchaise3"></span>
+                <div class="modal-ingredients_image">
+                    <img src="/images/milkshake-modal.png" alt="ice-cream">
+                </div>
+                <div class="modal_ice-cream_components">
+                    <div class="component-item">
+                        <div class="modal-circle">
+                            <p class="component-number">320</p>
+                        </div>
+                        <p class="component-name">kcal</p>
+                    </div>
+                    <div class="component-item">
+                        <div class="modal-circle">
+                            <p class="component-number">4g</p>
+                        </div>
+                        <p class="component-name">Protein</p>
+                    </div>
+                    <div class="component-item">
+                        <div class="modal-circle">
+                            <p class="component-number">8,2g</p>
+                        </div>
+                        <p class="component-name">Fats</p>
+                    </div>
+                    <div class="component-item">
+                        <div class="modal-circle">
+                            <p class="component-number">40,4g</p>
+                        </div>
+                        <p class="component-name">Carbs</p>
+                    </div>
+                </div>
+                <div class="ingredients">
+                    <p>Ingredients</p>
+                    <div class="ingradients-table">
+                        <ul class="ingredients-name_list">
+                            <li>Milk</li>
+                            <li>Belgian chocolate</li>
+                            <li>Cream</li>
+                            <li>Cocoa powder</li>
+                            <li>Sugar</li>
+                            <li>Vanilla sugar</li>
+                        </ul>
+                        <ul class="ingredients-weight_list">
+                            <li>100ml</li>
+                            <li>20g</li>
+                            <li>150 ml</li>
+                            <li>30g</li>
+                            <li>40g</li>
+                            <li>10g</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <form class="modal_form">
+                    <input type="text" name="username" placeholder="Name" class="modal_input-name">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone" class="modal_input-phone">
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment" class="modal_input-comments"></textarea>
+                    <button type="submit" class="modal_button-submit button button-yellow">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL HOW IT`S MADE -->
+    <div class="modal" id="myModalHowMade">
+        <div class="modal_body">
+            <div class="modal_content how-made_content-box">
+                <h4 class="modal-caption">How it`s made?</h4>
+                <span class="modal-close" id="closeModalHowMade"></span>
+                <div class="modal-video">
+                    <iframe width="448" height="205" src="https://www.youtube.com/embed/p-SikBqk2PM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <p class="modal_how-made-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+            </div>
+        </div>
+    </div>
+   
+    
+    <script src="/main.js"></script>
+</body>
+</html>
