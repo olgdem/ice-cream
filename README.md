@@ -17,6 +17,10 @@ This project I made to master skills:
 
 ![screenshot](/Screenshot_ice-cream.jpg)
 
+## Description
+
+This site has a lot of different popups, where we can find out information about sorts of ice-cream, ingredients and how to do the ice-cream. There is information about how to buy ice-cream or franchaise of the ice-cream shop, about locations of existing shops. I worked a lot with position absolute and images. Practice slider with comments in adaptation. And add burger menu. 
+
 ## My code
 
 ```
