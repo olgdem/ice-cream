@@ -45,11 +45,9 @@
 
     .ice-cream__sort-item {
         width: 300px;
-        
     }
 
     .section-3__colomns {
-        
         width: 1000px;
     }
 
@@ -148,7 +146,6 @@
         padding-right: 0;
     }
 
-    
     .sub-title-parameters {
         font-size: 22px;
     }
@@ -210,7 +207,6 @@
     .double-image-of-cow {
         width: 335px;
         height: 383px;
-
     }
 
     .section-3__text-block {
@@ -242,7 +238,6 @@
     .long-picture-ice-cream {
         width: 704px;
         height: 327px;
-        
     }
 
     .slider {
@@ -313,7 +308,6 @@
     }
 
     .header__burger {
-        /* left: 135px; */
         left: 20%;
     }
 
@@ -338,7 +332,6 @@
     .long-picture-ice-cream {
         width: 624px;
         height: 290px;
-        
     }
 
     .comments-block {
@@ -358,7 +351,6 @@
     }
 
     .franchaise-card {
-    
         width: 183px;
         padding: 21px;
         margin-right: 14px;
@@ -450,7 +442,6 @@
     .long-picture-ice-cream {
         width: 536px;
         height: 254px;
-        
     }
 
     .slider {
@@ -465,8 +456,6 @@
         font-size: 12px;
     }
 
-    
-    
     .franchaise {
         flex-direction: column;
         align-items: center;
@@ -482,8 +471,6 @@
         margin-bottom: 20px;
         margin-right: 0;
     }
-
-    
 
     .franchaise-buttons {
         padding-top: 1264px;
@@ -518,24 +505,13 @@
         align-items: center;
 
     }
-    
-    /* .burger-menu-mobile {
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
-        
-    } */
 
     .burger-menu-mobile #buttonBuyNow {
         display: block;
         margin-left: 50%;
         margin-right: 50%;
-        /* transform: translate(-50%);
-         */
-        
     }
 
-    
     .header__burger {
         left: 0;
     }
@@ -599,7 +575,6 @@
     .long-picture-ice-cream {
         width: 484px;
         height: 216px;
-        
     }
 
     .comments-item {
@@ -627,7 +602,6 @@
     @media screen and (max-width: 420px) {
         .header, .section-1, .section-2, .section-3, .section-4, .section-5, .footer {
             max-width: 420px;
-            
         }
     
         .container {
@@ -635,7 +609,6 @@
             padding-left: 16px;
             padding-right: 16px;
             margin: 0;
-            
         } 
 
         .section-1__block-1 {
@@ -760,7 +733,6 @@
         width: 280px;
         height: 130.031px;
         top: 0;
-        
     }
 
     .pagination-dots {
@@ -777,13 +749,11 @@
         align-items: center;
         justify-content: center;
         top: -287px;
-        /* right: 50%;
-        margin-right: -150px; */
     }
 
     .ice-cream__sort {
         margin-right: 0;
-        width: 320px
+        width: 320px;
     }
 
     .ice-cream__sort-item {
@@ -803,7 +773,6 @@
 
     .section-3__colomns {
         width: 300px;
-        
     }
 
     .section-3__title-block {
@@ -829,8 +798,6 @@
     .sub-title-h2 {
         font-size: 30px;
     }
-
-    
 
     .section-3__text-block {
         width: 254px;
@@ -900,19 +867,6 @@
         display: none;
     }
 
-    /* .ingradients-table {
-        /* width: 200px; */
-        
-
-
-    /* .ingredients-name_list li {
-        margin-bottom: 5px;
-    }
-
-    .ingredients-weight_list li {
-        margin-bottom: 5px;
-    } */
-
     .modal_form {
         margin-top: 40px;
     }
@@ -976,9 +930,6 @@
     .modal_button-submit {
         margin-top: 1px;
     }
-
-    
-    
 
 }
 

@@ -7,8 +7,7 @@ body {
     line-height: normal;
     margin: 0;
     padding: 0;
-    min-width: 100%;
-    
+    min-width: 100%; 
 }
 
 * {
@@ -39,7 +38,6 @@ body {
 	z-index: 5;
 	overflow: hidden;
     display: none;
-    
 }
 
 .burger {
@@ -64,7 +62,6 @@ body {
 
 .nav-menu {
     min-width: 440px;  
-    
 }
 
 .nav-list {
@@ -92,7 +89,6 @@ body {
 .colored-link {
     color: #F8D24E;
 }
-
 
 .button {
     width: 152px;
@@ -175,8 +171,6 @@ body {
     align-items: center;
     margin-top: 140px;
 }
-
-
 
 .burger-close {
     position: absolute;
@@ -306,8 +300,6 @@ h1 {
 
 .section-2, .section-4 {
     background-image: url(/images/background_ice-cream.png);
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     min-width: 100%;
 }
 
@@ -333,7 +325,6 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
-
 
 .sub-title-h2 {
     font-family: Seymour One;
@@ -399,7 +390,6 @@ h1 {
 
 .ice-cream-1, .ice-cream-2, .ice-cream-3 {
     display: block;
-    
 }
 
 .big-circle {
@@ -555,7 +545,6 @@ h3 {
     font-size: 58px;
     font-weight: 700;
     letter-spacing: 2.32px;
-  
 }
 
 .about-metrics {
@@ -580,7 +569,6 @@ h3 {
     transform: translate(-50%, -50%);
     top: 7%;
 }
-
 
 .comments-block {
     padding-top: 375px;
@@ -802,8 +790,6 @@ h3 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-
-
 }
 
 .github, .telegram, .facebook {
@@ -819,13 +805,11 @@ h3 {
 
 .github:hover {
     background-image: url(/images/github-hover.svg);
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;  
 }
 
 .telegram {
-    background-image: url(/images/telegram.svg);
-    
+    background-image: url(/images/telegram.svg);   
 }
 
 .telegram:hover {
@@ -834,8 +818,7 @@ h3 {
 }
 
 .facebook {
-    background-image: url(/images/facebook.svg);
-    
+    background-image: url(/images/facebook.svg); 
 }
 
 .facebook:hover {
@@ -853,7 +836,6 @@ h3 {
 
 .text-contact {
     color: #131313;
-
 }
 
 .phone-contact {
@@ -878,7 +860,7 @@ hr {
 }
 
 
-/* ___________MODAL_______________ */
+/* ___________MODALs_______________ */
 
 .modal {
     display: none;
@@ -897,8 +879,8 @@ hr {
     background-color: rgba(7, 7, 7, 0.25);
     z-index: 100;
     overflow: hidden;
-   
 }
+
 .modal_content {
     margin: auto;
     justify-content: center;
@@ -912,17 +894,6 @@ hr {
     background-color: #FCFCFC;
 }
 
-.location_content-box {
-    padding: 32px 60px;
-    width: 568px;
-    height: 458px;
-}
-
-.franchaise_content-box {
-    width: 568px;
-    height: 668px;
-}
-
 .modal-caption {
     color: #131313;
     text-align: center;
@@ -933,6 +904,7 @@ hr {
     line-height: 28px;
     margin-top: 0;
 }
+
 .modal-close {
     position: absolute;
     top: 20px;
@@ -942,6 +914,41 @@ hr {
     width: 20px;
     height: 20px;
 }
+
+.modal_form {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal_input-name, .modal_input-phone, .modal_input-comments, .modal_input-email {
+    width: 368px;
+    height: 42px;
+    border-radius: 10px;
+    border: 1px solid #84A178;
+    background: rgba(248, 210, 78, 0.10);
+    color: #131313;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    padding: 11px 16px;
+    margin-bottom: 16px;
+}
+ 
+.modal_input-comments {
+    min-height: 84px;
+    margin-bottom: 0;
+}
+
+.modal_button-submit {
+    margin-top: 32px;
+}
+
+/* _____MODAL BUY NOW_____ */
+
 .modal-buy_ice-cream-cards {
     display: flex;
     flex-direction: row;
@@ -979,7 +986,6 @@ hr {
     height: 135px;
     border-radius: 15.781px;
     position: relative;
-    
 }
 
 .small-circle {
@@ -1017,48 +1023,13 @@ hr {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.64px;
-    
-}
-.modal_form {
-    margin-top: 19px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.modal_input-name, .modal_input-phone, .modal_input-comments, .modal_input-email {
-    width: 368px;
-    height: 42px;
-    border-radius: 10px;
-    border: 1px solid #84A178;
-    background: rgba(248, 210, 78, 0.10);
-    color: #131313;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    padding: 11px 16px;
-    margin-bottom: 16px;
-    
-}
- 
-.modal_input-comments {
-    min-height: 84px;
-    margin-bottom: 0;
-}
-.modal_button-submit {
-    margin-top: 32px;
-}
+/* _____MODAL FRANCHAISE________ */
 
-.modal-button-map {
-    display: block;
-    width: 145px;
-    height: 42px;
-    text-decoration: none;
-    padding: 10px 34px;
-    margin: 0 auto;
-    margin-top: 32px;
+.franchaise_content-box {
+    width: 568px;
+    height: 668px;
 }
 
 .modal-franchaise-text, .modal_how-made-text {
@@ -1069,21 +1040,14 @@ hr {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-
 }
+
+/* ________MODAL INGREDIENTS________ */
 
 .ingredients_content-box {
     width: 568px;
     height: 995px;
 }
-
-/* .modal-ingredients_image img {
-    width: 120px;
-    height: 120px;
-    display: block;
-    margin: 0 auto;
-} */
-
 
 .modal_ice-cream_components {
     display: flex;
@@ -1100,22 +1064,22 @@ hr {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-right: 20px;
-    
+    margin-right: 20px;  
 }
 
 .component-item:last-child {
     margin-right: 0;
 }
+
 .modal-circle {
     width: 53px;
     height: 53px;
     background-color: #9CBE8F;
     border: 2px solid #9CBE8F;
     border-radius: 26px;
-
     filter: drop-shadow(0px 6px 20px rgba(10, 136, 23, 0.25));
 }
+
 .component-name, .component-number {
     color: #131313;
     text-align: center;
@@ -1124,7 +1088,6 @@ hr {
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
-    
 }
 
 .component-name {
@@ -1150,6 +1113,7 @@ hr {
     font-weight: 500;
     line-height: 28px;
 }
+
 .ingradients-table {
     display: flex;
     flex-direction: row;
@@ -1171,11 +1135,14 @@ hr {
     padding: 0;
     margin: 0;
 }
+
 .ingredients-weight_list {
     text-align: end;
     padding: 0;
     margin: 0;
 }
+
+/* ______MODAL HOW MADE______ */
 
 .how-made_content-box {
     width: 568px;
@@ -1191,9 +1158,27 @@ hr {
     height: 205px;
 }
 
+/* ______MODAL LOCATION______ */
+
 .modal-map {
     width: 448px;
     height: 260px; 
+}
+
+.location_content-box {
+    padding: 32px 60px;
+    width: 568px;
+    height: 458px;
+}
+
+.modal-button-map {
+    display: block;
+    width: 145px;
+    height: 42px;
+    text-decoration: none;
+    padding: 10px 34px;
+    margin: 0 auto;
+    margin-top: 32px;
 }
 
 
