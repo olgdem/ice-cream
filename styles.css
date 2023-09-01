@@ -155,7 +155,7 @@ body {
 }
 
 .burger-menu-active {
-    display: block;
+    display: flex;
 }
 
 .burger-logo {
@@ -177,7 +177,7 @@ body {
     display: block;
     right: 32px;
     top: 32px;
-    content: url(/images/burger-close.svg);
+    content: url(images/burger-close.svg);
     width: 32px;
     height: 32px;
 }
@@ -188,7 +188,7 @@ body {
 }
 
 .section-1__module {
-    background-image: url(/images/mask-dots.png);
+    background-image: url(images/mask-dots.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -264,7 +264,7 @@ h1 {
 }
 
 .arrow-white {
-    content: url(/images/arrow-right-white.svg);
+    content: url(images/arrow-right-white.svg);
 }
 
 .section-1__block-2 {
@@ -299,7 +299,7 @@ h1 {
 }
 
 .section-2, .section-4 {
-    background-image: url(/images/background_ice-cream.png);
+    background-image: url(images/background_ice-cream.png);
     min-width: 100%;
 }
 
@@ -442,7 +442,7 @@ h3 {
 }
 
 .arrow-black {
-    content: url(/images/arrow-right-black.svg);
+    content: url(images/arrow-right-black.svg);
     display: block;
     margin: 0 auto;
 }
@@ -524,15 +524,15 @@ h3 {
 }
 
 .cow-icon {
-    background: url(/images/cow-icon.svg);
+    background: url(images/cow-icon.svg);
 }
 
 .weight-icon {
-    background: url(/images/weight-icon.svg);
+    background: url(images/weight-icon.svg);
 }
 
 .ice-cream-icon {
-    background: url(/images/ice-crema-icon.svg);
+    background: url(images/ice-crema-icon.svg);
 }
 
 .metrics, .about-metrics {
@@ -800,29 +800,29 @@ h3 {
 }
 
 .github {
-    background-image: url(/images/github.svg);
+    background-image: url(images/github.svg);
 }
 
 .github:hover {
-    background-image: url(/images/github-hover.svg);
+    background-image: url(images/github-hover.svg);
     background-repeat: no-repeat;  
 }
 
 .telegram {
-    background-image: url(/images/telegram.svg);   
+    background-image: url(images/telegram.svg);   
 }
 
 .telegram:hover {
-    background-image: url(/images/telegram-hover.svg);
+    background-image: url(images/telegram-hover.svg);
     background-repeat: no-repeat;
 }
 
 .facebook {
-    background-image: url(/images/facebook.svg); 
+    background-image: url(images/facebook.svg); 
 }
 
 .facebook:hover {
-    background-image: url(/images/facebook-hover.svg);
+    background-image: url(images/facebook-hover.svg);
     background-repeat: no-repeat;
 }
 
@@ -909,7 +909,7 @@ hr {
     position: absolute;
     top: 20px;
     right: 20px;
-    content: url(/images/modal-buy-close-button.svg);
+    content: url(images/modal-buy-close-button.svg);
     display: block;
     width: 20px;
     height: 20px;
@@ -1180,6 +1180,7 @@ hr {
     margin: 0 auto;
     margin-top: 32px;
 }
+
 
 
 

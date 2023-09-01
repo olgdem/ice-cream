@@ -495,22 +495,22 @@
     .container {
         max-width: 500px;
     } 
-    #buttonBuyNow {
+    /* #buttonBuyNow {
         display: none;
-    }
+    } */
 
     .burger-menu-mobile {
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
 
     }
 
-    .burger-menu-mobile #buttonBuyNow {
+    /* .burger-menu-mobile #buttonBuyNow {
         display: block;
         margin-left: 50%;
         margin-right: 50%;
-    }
+    } */
 
     .header__burger {
         left: 0;
@@ -548,7 +548,7 @@
     }
 
     .section-1__module {
-        background-image: url(/images/background-mobile.png);
+        background-image: url(images/background-mobile.png);
     }
 
     .section-3__colomns {
